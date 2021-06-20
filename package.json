@@ -1,15 +1,20 @@
 {
   "name": "electricfieldandpotential",
   "version": "1.0.0",
-  "description": "",
+  "description": "平面上の電位と電場の表示",
   "main": "webpack.config.js",
   "directories": {
     "doc": "doc"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build" : "webpack",
+    "watch" : "webpack -w"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phys-edu/ElectricFieldAndPotential.git"
+  },
+  "author": "Nakamura",
   "license": "MIT",
   "devDependencies": {
     "@types/three": "^0.129.1",

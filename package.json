@@ -1,0 +1,26 @@
+{
+  "name": "electricfieldandpotential",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/three": "^0.129.1",
+    "css-loader": "^5.2.6",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.4",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "three": "^0.129.0"
+  }
+}
